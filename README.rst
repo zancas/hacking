@@ -1,11 +1,13 @@
 Introduction
 ============
 
-This is a set of flake8 plugins that test and enforce the `StyleGuide <http://docs.openstack.org/developer/hacking/#openstack-style-guidelines>`_.
+This is a set of flake8 plugins that test and enforce the `StyleGuide`_.
 
 Hacking pins its dependencies, as a new release of some dependency can break
 hacking based gating jobs. This is because new versions of dependencies can
 introduce new rules, or make existing rules stricter.
+
+.. _`StyleGuide`: http://docs.openstack.org/developer/hacking/#openstack-style-guidelines
 
 Installation
 ============
@@ -76,7 +78,7 @@ Requirements
 ------------
 - The check must already have community support. We do not want to dictate
   style, only enforce it.
-- The canonical source of the OpenStack Style Guidelines is :ref:`StyleGuide`,
+- The canonical source of the OpenStack Style Guidelines is `StyleGuide`_
   and hacking just enforces
   them; so when adding a new check, it must be in ``HACKING.rst``
 - False negatives are ok, but false positives are not
