@@ -1,7 +1,7 @@
 Introduction
 ============
 
-hacking is a set of flake8 plugins that test and enforce the `StyleGuide <http://docs.openstack.org/developer/hacking/#openstack-style-guidelines>`_.
+This is a set of flake8 plugins that test and enforce the `StyleGuide <http://docs.openstack.org/developer/hacking/#openstack-style-guidelines>`_.
 
 Hacking pins its dependencies, as a new release of some dependency can break
 hacking based gating jobs. This is because new versions of dependencies can
